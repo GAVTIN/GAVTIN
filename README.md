@@ -4,7 +4,7 @@
   <a href="https://twitter.com/TheDevWhoShips" target="_blank">
     <img src="https://img.shields.io/badge/@TheDevWhoShips-000000?style=flat&logo=x&logoColor=white" alt="X / Twitter" />
   </a>
-  <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+  <a href="https://www.linkedin.com/in/gaurav-sinha-b9156941/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:gavtin2807@gmail.com">
@@ -197,7 +197,7 @@ If you're building something interesting in fintech, developer tooling, or AI-fi
     <img src="https://img.shields.io/badge/Follow_on_X-000000?style=for-the-badge&logo=x&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/yourprofile">
+  <a href="https://www.linkedin.com/in/gaurav-sinha-b9156941/">
     <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
