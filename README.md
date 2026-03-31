@@ -1,7 +1,7 @@
 ## Hi there, I'm Gaurav Sinha 👋
 
 <p align="left">
-  <a href="https://twitter.com/TheDevWhoShips" target="_blank">
+  <a href="https://x.com/TheDevWhoShips" target="_blank">
     <img src="https://img.shields.io/badge/@TheDevWhoShips-000000?style=flat&logo=x&logoColor=white" alt="X / Twitter" />
   </a>
   <a href="https://www.linkedin.com/in/gaurav-sinha-b9156941/" target="_blank">
@@ -14,7 +14,7 @@
 </p>
 
 > **Senior Frontend Engineer & Tech Lead** · 11+ years · BFSI/Fintech · React · Node.js · AI-augmented development  
-> *Currently on a public journey from frontend specialist → fullstack AI-first engineer* → **[@TheDevWhoShips](https://twitter.com/TheDevWhoShips)**
+> *Currently on a public journey from frontend specialist → fullstack AI-first engineer* → **[@TheDevWhoShips](https://x.com/TheDevWhoShips)**
 
 ---
 
@@ -22,10 +22,10 @@
 - 🌱 &nbsp;Completing the **Airtribe AI-First Backend Developer** course — documenting every session publicly
 - 💼 &nbsp;Deep expertise in **React · TypeScript · Redux Toolkit** across BFSI/investment banking products
 - 🤖 &nbsp;Integrating AI tooling into daily dev workflow — **GitHub Copilot · Cursor AI · OpenAI API · LLMs**
-- ✍️ &nbsp;Running a 19-part Twitter series on frontend → fullstack engineering at **[@TheDevWhoShips](https://twitter.com/TheDevWhoShips)**
+- ✍️ &nbsp;Running a 19-part Twitter series on frontend → fullstack engineering at **[@TheDevWhoShips](https://x.com/TheDevWhoShips)**
 - 👯 &nbsp;Open to collaborating on **fintech products · developer tooling · AI-first web apps**
 - 💬 &nbsp;Ask me about **React architecture · Redux Toolkit · micro-frontends · async JS · REST API design**
-- 📫 &nbsp;Reach me at **gavtin2807@gmail.com** or DM on [X / Twitter](https://twitter.com/TheDevWhoShips)
+- 📫 &nbsp;Reach me at **gavtin2807@gmail.com** or DM on [X / Twitter](https://x.com/TheDevWhoShips)
 - 📍 &nbsp;**Thane, Maharashtra** — open to Mumbai/Thane hybrid · pan-India remote · international remote
 - ⚡ &nbsp;Fun fact: I explained `Promise.allSettled` vs `Promise.all` by building a live fintech app that fetches stock prices from 3 APIs simultaneously
 
@@ -182,7 +182,7 @@ Airtribe AI-First Backend Developer Course (Cohort 19)
 - 🤖 Writing about AI-augmented development — how Copilot, Cursor, and LLMs change how senior engineers work
 - 🏗 Building in public — architecture decisions, debugging sessions, and lessons from the Airtribe course
 
-**Follow along → [twitter.com/TheDevWhoShips](https://twitter.com/TheDevWhoShips)**
+**Follow along → [x.com/TheDevWhoShips](https://x.com/TheDevWhoShips)**
 
 ---
 
@@ -193,7 +193,7 @@ I'm actively looking for **Senior Frontend Engineer, Tech Lead, and Fullstack En
 If you're building something interesting in fintech, developer tooling, or AI-first products — let's talk.
 
 <p>
-  <a href="https://twitter.com/TheDevWhoShips">
+  <a href="https://x.com/TheDevWhoShips">
     <img src="https://img.shields.io/badge/Follow_on_X-000000?style=for-the-badge&logo=x&logoColor=white" />
   </a>
   &nbsp;
