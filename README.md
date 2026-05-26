@@ -14,17 +14,18 @@
 </p>
 
 > **Senior Frontend Engineer & Tech Lead** · 11+ years · BFSI/Fintech · React · Node.js · AI-augmented development  
-> *Currently on a public journey from frontend specialist → fullstack AI-first engineer* → **[@TheDevWhoShips](https://x.com/TheDevWhoShips)**
+> *Fullstack engineer — React specialist who ships production-grade backends* → **[@TheDevWhoShips](https://x.com/TheDevWhoShips)**
 
 ---
 
-- 🔭 &nbsp;Building **[FinSight](#-finsight--financial-health--alert-aggregator)** — a production-grade full-stack fintech dashboard
+- 🔭 &nbsp;Building **[FinSight](#-finsight--financial-health--alert-aggregator)** and **[FinEdge](#-finedge--personal-finance-tracker)** — production-grade fullstack fintech apps
 - 🌱 &nbsp;Completing the **Airtribe AI-First Backend Developer** course — documenting every session publicly
 - 💼 &nbsp;Deep expertise in **React · TypeScript · Redux Toolkit** across BFSI/investment banking products
 - 🤖 &nbsp;Integrating AI tooling into daily dev workflow — **GitHub Copilot · Cursor AI · OpenAI API · LLMs**
 - ✍️ &nbsp;Running a 19-part Twitter series on frontend → fullstack engineering at **[@TheDevWhoShips](https://x.com/TheDevWhoShips)**
+- 🧪 &nbsp;Shipping **well-tested backends** — 47 + 44 passing tests across two REST API projects using Jest & Supertest
 - 👯 &nbsp;Open to collaborating on **fintech products · developer tooling · AI-first web apps**
-- 💬 &nbsp;Ask me about **React architecture · Redux Toolkit · micro-frontends · async JS · REST API design**
+- 💬 &nbsp;Ask me about **React architecture · Redux Toolkit · layered Node.js APIs · JWT auth · REST API design**
 - 📫 &nbsp;Reach me at **gavtin2807@gmail.com** or DM on [X / Twitter](https://x.com/TheDevWhoShips)
 - 📍 &nbsp;**Thane, Maharashtra** — open to Mumbai/Thane hybrid · pan-India remote · international remote
 - ⚡ &nbsp;Fun fact: I explained `Promise.allSettled` vs `Promise.all` by building a live fintech app that fetches stock prices from 3 APIs simultaneously
@@ -64,6 +65,69 @@
 | Layered architecture | Routes → Controllers → Services → Models — services have zero Express imports |
 
 **🔗 [View Repository](https://github.com/GAVTIN/finsight)** &nbsp;·&nbsp; **🌐 [Live Demo](https://finsight.vercel.app)**
+
+---
+
+### 💰 FinEdge — Personal Finance Tracker
+
+> *A fullstack personal finance app — React/Vite frontend with a Node.js/Express backend and JWT auth*
+
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
+[![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat&logo=redux&logoColor=white)](https://redux-toolkit.js.org)
+[![RTK Query](https://img.shields.io/badge/RTK_Query-764ABC?style=flat&logo=redux&logoColor=white)](https://redux-toolkit.js.org/rtk-query/overview)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org)
+[![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com)
+
+**What it does**
+- 💸 Tracks **income, expenses, and budgets** with a clean, reactive UI
+- 🔐 Secure **JWT-based authentication** with access/refresh token flow end-to-end across frontend and backend
+- 🧩 **RTK Query** powers all data-fetching — cache invalidation, optimistic updates, and error state handling built-in
+- 📁 Full **layered backend architecture** — Routes → Controllers → Services → Models with zero coupling between layers
+- ⚡ **Vite** for near-instant HMR during development and optimised production bundles
+
+**🔗 [View Repository](https://github.com/GAVTIN/finedge)**
+
+---
+
+### 🎟 VirtualEventHub — Event Management Platform API
+
+> *A production-grade REST API for managing virtual events — built with a full auth, email notification, and test suite*
+
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org)
+[![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com)
+[![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)](https://jestjs.io)
+[![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)](https://jwt.io)
+[![Nodemailer](https://img.shields.io/badge/Nodemailer-22B573?style=flat&logoColor=white)](https://nodemailer.com)
+
+**What it does**
+- 🗓 Full **CRUD for events, registrations, and attendees** via a clean RESTful interface
+- 🔐 **JWT + bcrypt auth** — hashed credentials, token-protected routes, role-based access control
+- 📧 **Nodemailer-powered email notifications** — confirmation and reminder emails triggered on registration events
+- 🧠 **In-memory storage** layer with a clean service interface — easily swappable for a database layer
+- ✅ **47 passing tests** via Jest & Supertest — unit tests for services, integration tests for all API routes
+
+**🔗 [View Repository](https://github.com/GAVTIN/virtual-event-hub)**
+
+---
+
+### 📰 NewsFlow — Personalized News Aggregator API
+
+> *A three-layer REST API that aggregates and personalises news with TTL caching — built on NewsAPI*
+
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org)
+[![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com)
+[![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)](https://jestjs.io)
+[![Supertest](https://img.shields.io/badge/Supertest-000000?style=flat&logoColor=white)](https://github.com/ladjs/supertest)
+
+**What it does**
+- 🗞 Aggregates personalised news feeds by **topic, source, and user preference** via the NewsAPI
+- ⚡ **TTL-based in-memory cache** — avoids redundant upstream API calls; cache invalidates automatically on expiry
+- 🏗 Clean **three-layer architecture** — Routes → Controllers → Services — with no framework leakage across layers
+- 🔐 **JWT-protected routes** — users manage their own preferences; unauthenticated requests are rejected cleanly
+- ✅ **44 passing tests** via Jest & Supertest covering service logic and all API endpoints
+
+**🔗 [View Repository](https://github.com/GAVTIN/newsflow)**
 
 ---
 
@@ -124,7 +188,10 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=flat&logo=mongoose&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
+![bcrypt](https://img.shields.io/badge/bcrypt-004080?style=flat&logoColor=white)
+![Nodemailer](https://img.shields.io/badge/Nodemailer-22B573?style=flat&logoColor=white)
 ![node-cron](https://img.shields.io/badge/node--cron-339933?style=flat&logo=node.js&logoColor=white)
+![Winston](https://img.shields.io/badge/Winston-231F20?style=flat&logoColor=white)
 
 **AI & Developer Tooling**
 
@@ -134,6 +201,8 @@
 
 **Testing & Quality**
 
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
+![Supertest](https://img.shields.io/badge/Supertest-000000?style=flat&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat&logo=cypress&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint&logoColor=white)
@@ -166,8 +235,11 @@ Airtribe AI-First Backend Developer Course (Cohort 19)
 ├── ✅ Express.js — REST APIs, middleware chain, layered architecture
 ├── ✅ Async JS — callbacks → Promises → async/await → Promise combinators
 ├── ✅ MongoDB + Mongoose — schemas, virtuals, Atlas deployment
-├── 🔄 Authentication — JWT, bcrypt, refresh token rotation
-├── ⏳ System Design — HLD vs LLD, DB scaling, sharding
+├── ✅ Authentication — JWT, bcrypt, refresh token rotation
+├── ✅ Testing — Jest, Supertest, unit + integration test suites
+├── ✅ Email & Notifications — Nodemailer, transactional email flows
+├── ✅ Caching — TTL-based in-memory caching strategies
+├── 🔄 System Design — HLD vs LLD, DB scaling, sharding
 └── ⏳ AI Integration — LLM APIs, prompt engineering, AI-first backends
 ```
 
