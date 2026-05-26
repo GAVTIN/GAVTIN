@@ -13,7 +13,7 @@
   <img src="https://komarev.com/ghpvc/?username=GAVTIN&color=16a34a&style=flat&label=Profile+views" alt="Profile views" />
 </p>
 
-> **Technology Specialist & Tech Lead** · 11+ years · BFSI/Fintech · React · Node.js · AI-augmented development  
+> **Technology Specialist / Tech Lead / Senior Fullstack Developer** · 11+ years · BFSI/Fintech · React · Node.js · AI-augmented development  
 > *Fullstack engineer — React specialist who ships production-grade backends* → **[@TheDevWhoShips](https://x.com/TheDevWhoShips)**
 
 ---
