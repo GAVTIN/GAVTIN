@@ -234,6 +234,19 @@ AI Technical Leadership
 
 ---
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GAVTIN&show_icons=true&theme=github_dark)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=GAVTIN&theme=github-dark)
+
+## 🎯 Open To Opportunities
+
+- Senior Frontend Engineer
+- Full Stack Engineer
+- AI Engineer
+- Forward Deployed Engineer
+- Technical Lead
+- Solutions Architect
+
 ## 🤝 Let's Connect
 
 📧 Email: gavtin2807@gmail.com
