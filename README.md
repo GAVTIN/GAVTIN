@@ -1,285 +1,251 @@
-## Hi there, I'm Gaurav Sinha 👋
+# Hi there 👋 I'm Gaurav Kumar Sinha
 
-<p align="left">
-  <a href="https://x.com/TheDevWhoShips" target="_blank">
-    <img src="https://img.shields.io/badge/@TheDevWhoShips-000000?style=flat&logo=x&logoColor=white" alt="X / Twitter" />
-  </a>
-  <a href="https://www.linkedin.com/in/gaurav-sinha-b9156941/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:gavtin2807@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=GAVTIN&color=16a34a&style=flat&label=Profile+views" alt="Profile views" />
-</p>
+<div align="center">
 
-> **Technology Specialist / Tech Lead / Senior Fullstack Developer** · 11+ years · BFSI/Fintech · React · Node.js · AI-augmented development  
-> *Fullstack engineer — React specialist who ships production-grade backends* → **[@TheDevWhoShips](https://x.com/TheDevWhoShips)**
+### Technology Specialist | Full Stack Engineer | AI Engineer
+
+Building scalable products at the intersection of Software Engineering, AI, and Financial Technology.
+
+[LinkedIn](https://www.linkedin.com/in/gaurav-sinha-b9156941) •
+[GitHub](https://github.com/GAVTIN) •
+[X](https://x.com/TheDevWhoShips)
+
+</div>
 
 ---
 
-- 🔭 &nbsp;Building **[FinSight](#-finsight--financial-health--alert-aggregator)** and **[FinEdge](#-finedge--personal-finance-tracker)** — production-grade fullstack fintech apps
-- 🌱 &nbsp;Completing the **Airtribe AI-First Backend Developer** course — documenting every session publicly
-- 💼 &nbsp;Deep expertise in **React · TypeScript · Redux Toolkit** across BFSI/investment banking products
-- 🤖 &nbsp;Integrating AI tooling into daily dev workflow — **GitHub Copilot · Cursor AI · OpenAI API · LLMs**
-- ✍️ &nbsp;Running a 19-part Twitter series on frontend → fullstack engineering at **[@TheDevWhoShips](https://x.com/TheDevWhoShips)**
-- 🧪 &nbsp;Shipping **well-tested backends** — 47 + 44 passing tests across two REST API projects using Jest & Supertest
-- 👯 &nbsp;Open to collaborating on **fintech products · developer tooling · AI-first web apps**
-- 💬 &nbsp;Ask me about **React architecture · Redux Toolkit · layered Node.js APIs · JWT auth · REST API design**
-- 📫 &nbsp;Reach me at **gavtin2807@gmail.com** or DM on [X / Twitter](https://x.com/TheDevWhoShips)
-- 📍 &nbsp;**Thane, Maharashtra** — open to Mumbai/Thane hybrid · pan-India remote · international remote
-- ⚡ &nbsp;Fun fact: I explained `Promise.allSettled` vs `Promise.all` by building a live fintech app that fetches stock prices from 3 APIs simultaneously
+## 🚀 About Me
+
+I'm a Technology Specialist with 11+ years of experience designing and building enterprise-grade applications across Banking, Financial Services, E-Commerce, Logistics, and Compliance domains.
+
+My engineering journey started with frontend development, evolved into full-stack architecture, and is now expanding into AI-first software engineering.
+
+Today, I focus on building:
+
+- ⚛️ Modern React Applications
+- 🏗️ Scalable Full-Stack Systems
+- 🤖 AI-Powered Products & Agents
+- 📈 Financial Technology Platforms
+- 🔄 End-to-End Product Solutions
+- 👥 Engineering Leadership & Mentorship
 
 ---
 
-## 🚀 Featured Projects
+## 💼 Professional Snapshot
 
----
-
-### 💹 FinSight — Financial Health & Alert Aggregator
-
-> *A production-style full-stack BFSI dashboard — built as a capstone for the Airtribe AI-First Backend course*
-
-[![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org)
-[![Express](https://img.shields.io/badge/Express-4-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com)
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev)
-[![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat&logo=redux&logoColor=white)](https://redux-toolkit.js.org)
-[![MongoDB](https://img.shields.io/badge/MongoDB_Atlas-47A248?style=flat&logo=mongodb&logoColor=white)](https://mongodb.com)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
-
-**What it does**
-- 📊 Calculates a real-time **Financial Health Score (0–100)** across diversification, risk balance, and performance
-- ⚡ Fetches live prices from **3 independent data sources in parallel** using `Promise.allSettled` — prices are returned even when individual sources fail
-- 🔔 Runs a **cron-scheduled alert engine** every 15 minutes that dispatches email, SMS, and webhook notifications when thresholds are breached
-- 🔐 Full **JWT auth** with access token + refresh token rotation and Axios interceptor-based silent refresh
-- 🛡 **Role-based access** — admin dashboard shows all users, portfolios, health scores, and alert rules with RTK Query per-user caching (5-minute cache, manual refresh)
-
-**Key engineering decisions worth reading**
-
-| Decision | Why |
-|---|---|
-| `Promise.allSettled` for market data | Partial prices beat no prices — one source down shouldn't block the whole feed |
-| `Promise.all` for notifications | All channels must succeed or we need to know which failed |
-| Closure-based rate limiter | No external library — demonstrates the pattern directly in production middleware |
-| RTK Query with `keepUnusedDataFor` | Admin revisiting a user gets instant cached response; no redundant API call |
-| Layered architecture | Routes → Controllers → Services → Models — services have zero Express imports |
-
-**🔗 [View Repository](https://github.com/GAVTIN/finsight)** &nbsp;·&nbsp; **🌐 [Live Demo](https://finsight.vercel.app)**
-
----
-
-### 💰 FinEdge — Personal Finance Tracker
-
-> *A fullstack personal finance app — React/Vite frontend with a Node.js/Express backend and JWT auth*
-
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
-[![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat&logo=redux&logoColor=white)](https://redux-toolkit.js.org)
-[![RTK Query](https://img.shields.io/badge/RTK_Query-764ABC?style=flat&logo=redux&logoColor=white)](https://redux-toolkit.js.org/rtk-query/overview)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org)
-[![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com)
-
-**What it does**
-- 💸 Tracks **income, expenses, and budgets** with a clean, reactive UI
-- 🔐 Secure **JWT-based authentication** with access/refresh token flow end-to-end across frontend and backend
-- 🧩 **RTK Query** powers all data-fetching — cache invalidation, optimistic updates, and error state handling built-in
-- 📁 Full **layered backend architecture** — Routes → Controllers → Services → Models with zero coupling between layers
-- ⚡ **Vite** for near-instant HMR during development and optimised production bundles
-
-**🔗 [View Repository](https://github.com/GAVTIN/finedge)**
-
----
-
-### 🎟 VirtualEventHub — Event Management Platform API
-
-> *A production-grade REST API for managing virtual events — built with a full auth, email notification, and test suite*
-
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org)
-[![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com)
-[![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)](https://jestjs.io)
-[![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)](https://jwt.io)
-[![Nodemailer](https://img.shields.io/badge/Nodemailer-22B573?style=flat&logoColor=white)](https://nodemailer.com)
-
-**What it does**
-- 🗓 Full **CRUD for events, registrations, and attendees** via a clean RESTful interface
-- 🔐 **JWT + bcrypt auth** — hashed credentials, token-protected routes, role-based access control
-- 📧 **Nodemailer-powered email notifications** — confirmation and reminder emails triggered on registration events
-- 🧠 **In-memory storage** layer with a clean service interface — easily swappable for a database layer
-- ✅ **47 passing tests** via Jest & Supertest — unit tests for services, integration tests for all API routes
-
-**🔗 [View Repository](https://github.com/GAVTIN/virtual-event-hub)**
-
----
-
-### 📰 NewsFlow — Personalized News Aggregator API
-
-> *A three-layer REST API that aggregates and personalises news with TTL caching — built on NewsAPI*
-
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org)
-[![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com)
-[![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)](https://jestjs.io)
-[![Supertest](https://img.shields.io/badge/Supertest-000000?style=flat&logoColor=white)](https://github.com/ladjs/supertest)
-
-**What it does**
-- 🗞 Aggregates personalised news feeds by **topic, source, and user preference** via the NewsAPI
-- ⚡ **TTL-based in-memory cache** — avoids redundant upstream API calls; cache invalidates automatically on expiry
-- 🏗 Clean **three-layer architecture** — Routes → Controllers → Services — with no framework leakage across layers
-- 🔐 **JWT-protected routes** — users manage their own preferences; unauthenticated requests are rejected cleanly
-- ✅ **44 passing tests** via Jest & Supertest covering service logic and all API endpoints
-
-**🔗 [View Repository](https://github.com/GAVTIN/newsflow)**
-
----
-
-### 🏨 Smart Host Allocator — Room Occupancy Optimizer
-
-> *A revenue-maximising hotel room allocation engine built in React + TypeScript*
-
-[![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://typescriptlang.org)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
-
-**What it does**
-- 🏷 Intelligently **allocates hotel rooms** to incoming guests to maximise occupancy and revenue
-- 🧮 Implements a **greedy allocation algorithm** — matches guest requirements to available rooms by price, capacity, and room type
-- 📱 Clean, component-driven UI with TypeScript for full type safety across the allocation logic
-- 🔄 Reactive state updates — room availability and revenue figures update instantly as allocations are made
-
-**🔗 [View Repository](https://github.com/GAVTIN/smart-host-allocator)**
-
----
-
-### 📈 TradeSpex — Portfolio & Stock Management Dashboard
-
-> *A role-based trading dashboard with portfolio views, per-stock modals, and admin/client separation*
-
-[![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
-[![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat&logo=redux&logoColor=white)](https://redux-toolkit.js.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://typescriptlang.org)
-
-**What it does**
-- 🔐 **JWT-based authentication** with separate admin and client role dashboards
-- 📊 **Portfolio data views** — holdings, allocation breakdown, P&L at a glance
-- 🪟 **Per-stock modals** — detailed stock information, price history, and position management
-- 🧩 Component-driven architecture with Redux Toolkit for predictable, cache-aware state management
-- ⚡ Built on **Vite** for near-instant HMR and optimised production builds
-
-**🔗 [View Repository](https://github.com/GAVTIN/tradespex)**
-
----
-
-## 🛠 Full Tech Stack
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React_18-61DAFB?style=flat&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat&logo=redux&logoColor=white)
-![RTK Query](https://img.shields.io/badge/RTK_Query-764ABC?style=flat&logo=redux&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-![React Router](https://img.shields.io/badge/React_Router_v6-CA4245?style=flat&logo=reactrouter&logoColor=white)
-
-**Backend**
-
-![Node.js](https://img.shields.io/badge/Node.js_20-339933?style=flat&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express_4-000000?style=flat&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=flat&logo=mongoose&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
-![bcrypt](https://img.shields.io/badge/bcrypt-004080?style=flat&logoColor=white)
-![Nodemailer](https://img.shields.io/badge/Nodemailer-22B573?style=flat&logoColor=white)
-![node-cron](https://img.shields.io/badge/node--cron-339933?style=flat&logo=node.js&logoColor=white)
-![Winston](https://img.shields.io/badge/Winston-231F20?style=flat&logoColor=white)
-
-**AI & Developer Tooling**
-
-![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat&logo=openai&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat&logo=github&logoColor=white)
-![Cursor AI](https://img.shields.io/badge/Cursor_AI-000000?style=flat&logoColor=white)
-
-**Testing & Quality**
-
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
-![Supertest](https://img.shields.io/badge/Supertest-000000?style=flat&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
-![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat&logo=cypress&logoColor=white)
-![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint&logoColor=white)
-
-**DevOps & Deployment**
-
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat&logo=railway&logoColor=white)
-![MongoDB Atlas](https://img.shields.io/badge/MongoDB_Atlas-47A248?style=flat&logo=mongodb&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-<p align="left">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=GAVTIN&show_icons=true&theme=default&hide_border=true&count_private=true&bg_color=ffffff&title_color=16a34a&icon_color=16a34a&text_color=374151" alt="Gaurav's GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GAVTIN&layout=compact&hide_border=true&bg_color=ffffff&title_color=16a34a&text_color=374151&langs_count=8" alt="Top languages" />
-</p>
-
----
-
-## 🧠 Currently Learning
-
-```
-Airtribe AI-First Backend Developer Course (Cohort 19)
-├── ✅ JavaScript fundamentals — execution context, closures, this, Event Loop
-├── ✅ Node.js runtime — libuv, async I/O, non-blocking model
-├── ✅ Express.js — REST APIs, middleware chain, layered architecture
-├── ✅ Async JS — callbacks → Promises → async/await → Promise combinators
-├── ✅ MongoDB + Mongoose — schemas, virtuals, Atlas deployment
-├── ✅ Authentication — JWT, bcrypt, refresh token rotation
-├── ✅ Testing — Jest, Supertest, unit + integration test suites
-├── ✅ Email & Notifications — Nodemailer, transactional email flows
-├── ✅ Caching — TTL-based in-memory caching strategies
-├── 🔄 System Design — HLD vs LLD, DB scaling, sharding
-└── ⏳ AI Integration — LLM APIs, prompt engineering, AI-first backends
+```yaml
+Experience: 11+ Years
+Frontend: React, Next.js, TypeScript
+Backend: Node.js, Express.js
+Database: MongoDB, PostgreSQL
+State Management: Redux Toolkit, RTK Query
+UI Libraries: Material UI, Tailwind CSS
+AI & LLMs: OpenAI, RAG, Agents, MCP
+Domains:
+  - Banking
+  - FinTech
+  - E-Commerce
+  - Logistics
+  - Social Compliance
 ```
 
 ---
 
-## ✍️ Latest from @TheDevWhoShips
+## 🛠️ Tech Stack
 
-> *Documenting the frontend → fullstack journey publicly — one post at a time*
+### Frontend
 
-- 🧵 **19-part series:** My journey from Senior Frontend Engineer to AI-First Fullstack Developer
-- 💡 Sharing real patterns from production BFSI systems — micro-frontends, RTK Query caching, JWT interceptors
-- 🤖 Writing about AI-augmented development — how Copilot, Cursor, and LLMs change how senior engineers work
-- 🏗 Building in public — architecture decisions, debugging sessions, and lessons from the Airtribe course
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
+![Redux](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux)
+![Material UI](https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=mui)
+![AG Grid](https://img.shields.io/badge/AG_GRID-0176C3?style=for-the-badge)
 
-**Follow along → [x.com/TheDevWhoShips](https://x.com/TheDevWhoShips)**
+### Backend
+
+![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
+![Express](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql)
+
+### AI Engineering
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-FF6B6B?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-0FA958?style=for-the-badge)
+![LangGraph](https://img.shields.io/badge/LangGraph-3F51B5?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge)
+
+### Testing & Quality
+
+- Jest
+- React Testing Library
+- Supertest
+- SonarQube
+- ESLint
+- Prettier
+
+---
+
+# 🌟 Featured Projects
+
+## 💹 FinSight
+
+Financial Health & Alert Aggregator Platform
+
+### Highlights
+
+- Financial Health Score Engine
+- Portfolio Monitoring
+- Alert Processing
+- JWT Authentication
+- Role-Based Authorization
+- React + Redux Toolkit
+- Node.js + MongoDB
+
+---
+
+## 📈 MarketPulse
+
+Market Intelligence & Trading Simulation Platform
+
+### Highlights
+
+- Portfolio Tracking
+- Financial Market Analysis
+- Trading Workflow Simulation
+- Scalable Backend Services
+- Clean System Design
+
+---
+
+## 💰 FinEdge
+
+Personal Finance Tracker
+
+### Features
+
+- Expense Management
+- Budget Planning
+- Financial Analytics
+- JWT Authentication
+- RTK Query Integration
+
+---
+
+## 📊 FinWatch
+
+Portfolio Monitoring Platform
+
+### Features
+
+- Real-Time Dashboard
+- Redux Toolkit
+- React 18
+- Financial Insights
+- Modern UI Architecture
+
+---
+
+## 🤖 LLM Powered File System Assistant
+
+AI-powered assistant for interacting with local files through natural language.
+
+### Learning Areas
+
+- Agentic AI
+- Tool Calling
+- LLM Integration
+- File System Operations
+- Prompt Engineering
+
+---
+
+## 🎟️ Virtual Event Hub
+
+Production-grade event management API.
+
+### Features
+
+- JWT Authentication
+- RBAC
+- Email Workflow
+- Testing with Jest
+- REST API Design
+
+---
+
+## 📰 NewsFlow
+
+Personalized news aggregation API.
+
+### Features
+
+- News Aggregation
+- Secure Authentication
+- Caching
+- Modular Architecture
+
+---
+
+# 🤖 Current AI Journey
+
+I'm currently focused on becoming an AI-First Software Engineer.
+
+### Exploring
+
+- Large Language Models
+- Agentic Systems
+- RAG Architecture
+- LangChain
+- LangGraph
+- MCP Servers
+- AI Evaluation
+- LLM Observability
+- Fine Tuning
+- Multi-Agent Systems
+
+---
+
+# 📚 What I'm Learning
+
+```text
+Frontend Engineering
+    ↓
+Full Stack Engineering
+    ↓
+System Design
+    ↓
+AI Engineering
+    ↓
+AI Technical Leadership
+```
+
+---
+
+## 📈 GitHub Goals
+
+- Build production-ready AI applications
+- Open-source AI engineering projects
+- Publish technical content regularly
+- Contribute to developer communities
+- Grow as an AI Technical Lead
 
 ---
 
 ## 🤝 Let's Connect
 
-I'm actively looking for **Senior Frontend Engineer, Tech Lead, and Fullstack Engineer** roles — particularly in BFSI/fintech companies and product startups.
+📧 Email: gavtin2807@gmail.com
 
-If you're building something interesting in fintech, developer tooling, or AI-first products — let's talk.
+💼 LinkedIn:
+https://www.linkedin.com/in/gaurav-sinha-b9156941
 
-<p>
-  <a href="https://x.com/TheDevWhoShips">
-    <img src="https://img.shields.io/badge/Follow_on_X-000000?style=for-the-badge&logo=x&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/gaurav-sinha-b9156941/">
-    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="mailto:gavtin2807@gmail.com">
-    <img src="https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+🐦 X:
+https://x.com/TheDevWhoShips
 
 ---
 
-<p align="center">
-  <i>"Ship consistently. Learn publicly. Build things that matter."</i>
-</p>
+> "Build. Learn. Share. Repeat."
+>
+> Transforming ideas into products through Engineering and AI.
