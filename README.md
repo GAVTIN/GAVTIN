@@ -234,15 +234,7 @@ AI Technical Leadership
 
 ---
 
-![Gaurav's GitHub Stats](https://github-readme-stats.vercel.app/api?username=GAVTIN&show_icons=true&theme=github_dark)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=GAVTIN&layout=compact&theme=github_dark)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=GAVTIN&theme=github-dark)
-
 ![](https://komarev.com/ghpvc/?username=GAVTIN&color=blue)
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=GAVTIN&theme=darkhub)](https://github.com/ryo-ma/github-profile-trophy)
 
 ## 🎯 Open To Opportunities
 
